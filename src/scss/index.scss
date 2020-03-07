@@ -1,0 +1,39 @@
+@import '_variables';
+
+body {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Helvetica';
+  font-size: 1.05rem;
+  letter-spacing: 0.15px;
+  display: grid;
+  justify-items: center;
+
+  #root {
+    display: grid;
+    max-width: $breakpoint;
+    min-width: $breakpoint;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "main"
+      "posts";
+
+    @media screen and (max-width: $breakpoint) {
+      min-width: 100vw;
+      font-size: 0.975rem;
+      letter-spacing: 0.15px;
+      // max-width: $breakpoint;
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "main"
+        "posts";
+    }
+  }
+}

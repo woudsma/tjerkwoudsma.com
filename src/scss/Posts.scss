@@ -1,0 +1,42 @@
+@import '_variables';
+
+.Posts {
+  grid-area: posts;
+  padding: $padding;
+  max-width: 100vw;
+  box-sizing: border-box;
+
+  > p {
+    margin: 0;
+    margin-bottom: $padding / 1.5;
+  }
+
+  &.maximized {
+    img {
+      opacity: 0.2;
+    }
+  }
+
+  div.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.9);
+    pointer-events: all;
+    cursor: pointer;
+
+    img.maximized {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      transform: translate(-50%, -50%);
+      max-width: calc(100vw - #{$padding * 4});
+      max-height: calc(100vh - #{$padding * 4});
+      pointer-events: none;
+    }
+  }
+}
