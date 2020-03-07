@@ -5,7 +5,7 @@ ENV REACT_APP_API_URL=${REACT_APP_API_URL}
 ARG REACT_APP_API_KEY
 ENV REACT_APP_API_KEY=${REACT_APP_API_KEY}
 
-ADD package.json ./
+ADD package.json package-lock.json ./
 RUN npm install --only=production
 ADD . .
 RUN npm run-script build
