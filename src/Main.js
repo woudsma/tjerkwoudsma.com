@@ -28,7 +28,7 @@ class Main extends Component {
         </a>
         <br />
         <br />
-        Currently working as JavaScript Consultant at&nbsp;
+        Currently working as a JavaScript Consultant at&nbsp;
         <a
           href="https://passionatepeople.io"
           target="_blank"
@@ -38,9 +38,33 @@ class Main extends Component {
         </a>
         <br />
         Contact:&nbsp;
-        <a href="mailto:tjerkwoudsma@gmail.com?Subject=Contact" target="_top">
+        <a href="mailto:tjerkwoudsma@gmail.com?Subject=Hello" target="_top">
           mail
         </a>
+        <br />
+        <br />
+        WIP weekend projects:
+        <br />
+        —&nbsp;
+        <a
+          href="https://swarmlet.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Swarmlet
+        </a>
+        &nbsp;
+        <br />
+        —&nbsp;
+        <a
+          href="https://pixel.voyage"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pixel Voyage
+        </a>
+        <br />
+        — ..
         <br />
         <br />
       </div>
