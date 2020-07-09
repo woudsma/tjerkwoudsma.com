@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Main from './Main'
-import Posts from './Posts'
+import React, { Component } from "react";
+import Main from "./Main";
+import Posts from "./Posts";
 
 class App extends Component {
   render() {
@@ -9,8 +9,8 @@ class App extends Component {
         <Main />
         <Posts />
       </>
-    )
+    );
   }
 }
 
-export default App
+export default App;
