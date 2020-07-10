@@ -11,6 +11,7 @@ class Main extends Component {
         Tjerk Woudsma
         <br />
         <br />
+        —&nbsp;
         <a
           href="https://www.linkedin.com/in/tjerk-woudsma-662432157"
           target="_blank"
@@ -19,6 +20,7 @@ class Main extends Component {
           LinkedIn
         </a>
         <br />
+        —&nbsp;
         <a
           href="https://github.com/woudsma"
           target="_blank"
@@ -43,6 +45,7 @@ class Main extends Component {
         </a>
         <br />
         <br />
+        <br />
         WIP weekend projects:
         <br />
         —&nbsp;
@@ -53,7 +56,7 @@ class Main extends Component {
         >
           Swarmlet
         </a>
-        &nbsp;
+        &nbsp;a self-hosted, open-source PaaS
         <br />
         —&nbsp;
         <a
@@ -63,6 +66,13 @@ class Main extends Component {
         >
           Pixel Voyage
         </a>
+        , research project and creative coding installation
+        <br />
+        —&nbsp;
+        <a href="#" style={{ cursor: "wait", color: "initial" }}>
+          ???
+        </a>
+        , P2P browser-based game built using React, WebRTC and WebGL
         <br />
         — ..
         <br />
