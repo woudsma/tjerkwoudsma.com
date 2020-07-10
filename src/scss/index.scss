@@ -16,6 +16,20 @@ body {
   display: grid;
   justify-items: center;
 
+  a {
+    text-decoration: none;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-bottom: 1.5px solid;
+    }
+  }
+
   #root {
     display: grid;
     max-width: $breakpoint;
