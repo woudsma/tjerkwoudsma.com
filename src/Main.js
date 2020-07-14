@@ -10,6 +10,8 @@ class Main extends Component {
       <div className={mainClass}>
         Tjerk Woudsma
         <br />
+        Creative Developer, Designer
+        <br />
         <br />
         <a
           href="https://www.linkedin.com/in/tjerk-woudsma-662432157"
