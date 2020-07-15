@@ -69,7 +69,7 @@ class Main extends Component {
         <a href="#" style={{ cursor: "wait", color: "initial" }}>
           ???
         </a>
-        , P2P browser-based game built using React, WebRTC and WebGL
+        , P2P browser-based game built using Node.js, React, WebRTC and WebGL
         <br />
         ...
         <br />
