@@ -1,11 +1,9 @@
 FROM node:10-alpine as builder
 
-ARG REACT_APP_API_URL
-ENV REACT_APP_API_URL=${REACT_APP_API_URL}
-ARG REACT_APP_API_KEY
-ENV REACT_APP_API_KEY=${REACT_APP_API_KEY}
+ARG REACT_APP_SANITY_PROJECT_ID
+ENV REACT_APP_SANITY_PROJECT_ID=${REACT_APP_SANITY_PROJECT_ID}
 
-ADD package.json package-lock.json ./
+ADD package*.json ./
 RUN npm install --only=production
 ADD . .
 RUN npm run-script build

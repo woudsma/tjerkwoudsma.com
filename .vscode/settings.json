@@ -1,0 +1,7 @@
+{
+  "prettier.semi": false,
+  "autoimport.useSemiColon": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "editor.formatOnSave": true
+}
