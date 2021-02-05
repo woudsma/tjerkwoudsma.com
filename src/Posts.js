@@ -39,7 +39,7 @@ class Posts extends Component {
           next: response._links
             ? `${API_URL}${response._links.next.href}&api_key=${API_KEY}`
             : undefined,
-        })
+        }),
       ))
     );
   };
@@ -51,6 +51,8 @@ class Posts extends Component {
   };
 
   nextImage = (e) => {
+    if (![27, 37, 39].includes(e.keyCode)) return;
+
     if (e.keyCode === 27) return this.minimize();
     const { image_index, photos } = this.state;
     const index =

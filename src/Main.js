@@ -29,6 +29,13 @@ class Main extends Component {
           Github
         </a>
         <br />
+        <a
+          href="https://blog.tjerkwoudsma.com"
+          rel="noopener noreferrer"
+        >
+          Personal blog
+        </a>
+        <br />
         <br />
         Currently working as a JavaScript Consultant at&nbsp;
         <a
